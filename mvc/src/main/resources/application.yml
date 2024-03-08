@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql-db.cx08sq8o03ru.ap-northeast-2.rds.amazonaws.com:/3306/
+
+mybatis:
+  mapper-locations:
+    - /mappers/*.xml

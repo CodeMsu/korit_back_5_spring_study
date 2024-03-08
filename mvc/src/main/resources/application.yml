@@ -1,8 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://mysql-db.cx08sq8o03ru.ap-northeast-2.rds.amazonaws.com:/3306/
-
+    url: jdbc:mysql://mysql-db.cx08sq8o03ru.ap-northeast-2.rds.amazonaws.com:3306/spring_mvc
+    username: aws
+    password: 1q2w3e4r!!
 mybatis:
   mapper-locations:
     - /mappers/*.xml
